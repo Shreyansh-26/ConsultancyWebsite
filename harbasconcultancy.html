@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/com_logo.png">
+        <title>Harbas Consultancy | Concultancy Services</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="harbas2.html"><img src="images/com_logo.png" alt="company logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                        <li><a href="">LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>HARBAS CONSULTANCY</h1>
+            <p>"Guiding Your Success, Every Step of the Way"</p>
+            <a href="" class="hero-btn">Click Here To Know More</a>
+
+        </div>
+
+        </section>
+
+        <!----ABOUT US---->
+
+        <section class="about-us">
+            <h1>About Us</h1>
+            <p>WE ARE A NATIONAL ACCOUNTING AND ADVISORY SERVICES FIRM DEDICATED TO HELPING ENTREPRENEURIAL, MIDDLE-MARKET COMPANIES AND HIGH NET WORTH INDIVIDUALS ACHIEVE THEIR GOALS.</p>
+
+            <div class="row">
+                <div class="row-col">
+                    <h3>PROVIDE STRENGTHENS TOWARDS YOU VISION</h3>
+                    <p>We implement and maintain a consistent financial process on Weekly basis that strengthens the health of your company and helps to create and encourage uniformity in tracking.</p>
+                </div>
+                <div class="row-col">
+                    <h3>ELIMINATE TIME AND COSTS OF HIRING PROCESSES</h3>
+                    <p>The recruitment process takes your business time, it costs, and you will need to dedicate the time either for yourself or the employee.
+                    </p>
+                </div>
+                <div class="row-col">
+                    <h3>NOT WORK AS CONSULTANT, BUT AS PARTNER</h3>
+                    <p> We have been implementing all the necessary business processes required to support to grow business.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!---------SERVICES---------->
+
+        <section class="services">
+            <h1>Services We Offer</h1>
+            <p>We specialise in providing accounting services, taking care of the day-to-day financial admin and bookkeeping for businesses like yours, so that you can focus on what matters most, providing a great experience for your customers/business.</p>
+
+            <div class="row">
+                <div class="service-col">
+                    <img src="images/1.jpg">
+                    <div class="layer">
+                        <h3 class="h3">Service 1</h3>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <img src="images/2.jpg">
+                    <div class="layer">
+                        <h3 class="h3">Service 2</h3>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <img src="images/3.jpg">
+                    <div class="layer">
+                        <h3 class="h3">Service 3</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------CLIENTS-------->
+
+        <!-- <section class="clients">
+            <h1>Our Clients</h1>
+            <p>Have A Look At Who We Have Worked With.</p>
+            <div class="row">
+                <div class="client-col">
+                    <img src="images/1.png">
+                </div>
+                <div class="client-col">
+                    <img src="images/2.png">
+                </div>
+                <div class="client-col">
+                    <img src="images/3.png">
+                </div>
+            </div>
+        </section> -->
+
+        <!-------CONTACT US-------->
+
+        <section class="contact-us">
+            <h1>LOOKING FORWARD TO SEE YOU!</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!---------FOOTER--------->
+
+        <!-- <section class="footer">
+            <h4>Follow Us On Social Media</h4>
+            <div class="icons">
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin-square"></i>
+            </div>
+        </section> -->
+
+        <section class="footer">
+        <h4>Follow us on Social Media</h4>
+        <div id="footer">
+            <i class="social-ic fa-brands fa-facebook-f"></i>
+            <i class="social-ic fa-brands fa-instagram"></i>
+            <i class="social-ic fa-brands fa-twitter"></i>
+            <i class="social-ic fa-brands fa-linkedin"></i>
+            <i class="social-ic fa-solid fa-envelope"></i>
+            <!-- <p>© Copyright TinDog 2022 by Abhi❤️</p> -->
+
+        </div>
+        </section>
+
+
+        <!-----JAVASCRIPT FOR TOGGLE MENU----->
+        <script>
+
+            var  navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+
+    </body>
+</html>
